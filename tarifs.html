@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tarifs & Offres – Destination Émeraude</title>
+    <meta name="description" content="Découvrez nos tarifs et offres spéciales pour visiter Destination Émeraude." />
+    <link rel="icon" type="image/svg+xml" href='data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"%3E%3Crect width="64" height="64" rx="12" fill="%232b6cb0"/%3E%3Cpath d="M14 36c8-2 16-14 26-14 8 0 10 8 10 8l-8 8-12 10-8-6-8-6z" fill="%23f6ad55"/%3E%3C/svg%3E' />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <script>(function(){try{var s=localStorage.getItem('theme');var d=window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches;var t=s||(d?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <a href="index.html" class="logo">Destination Goma</a>
+        <nav class="nav-menu" id="nav-menu" aria-label="Navigation principale">
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="reservation.html">Réservation</a></li>
+            <li><a href="galerie.html">Galerie</a></li>
+            <li><a href="a-propos.html">À propos</a></li>
+            <li><a href="temoignages.html">Témoignages</a></li>
+            <li><a href="tarifs.html">Tarifs</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="theme-toggle" id="theme-toggle" aria-label="Activer le mode sombre" title="Mode sombre"></button>
+        <button class="nav-toggle" id="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h1 class="section-title">Tarifs & Offres</h1>
+          <p class="section-subtitle">Des options pour toutes les envies. Réservez en ligne et bénéficiez de nos offres spéciales.</p>
+
+          <div class="pricing">
+            <article class="price-card">
+              <div class="badge">Populaire</div>
+              <h3>Visite classique</h3>
+              <div class="price">19$</div>
+              <p class="muted">Par adulte. -12 ans: 9$.</p>
+              <ul class="mt-4">
+                <li>1h30 de visite guidée</li>
+                <li>Accès aux points panoramiques</li>
+                <li>Groupes jusqu'à 20 pers.</li>
+              </ul>
+              <div class="mt-6"><a class="btn btn-primary" href="reservation.html">Réserver</a></div>
+            </article>
+
+            <article class="price-card" style="border-width:2px; border-color: var(--primary-600);">
+              <div class="badge" style="background: #bbf7d0;">Meilleur choix</div>
+              <h3>Visite privée</h3>
+              <div class="price">49$</div>
+              <p class="muted">Prix par personne, min. 4 pers.</p>
+              <ul class="mt-4">
+                <li>2h de visite sur-mesure</li>
+                <li>Horaires flexibles</li>
+                <li>Dégustation locale</li>
+              </ul>
+              <div class="mt-6"><a class="btn btn-primary" href="reservation.html">Réserver</a></div>
+            </article>
+
+            <article class="price-card">
+              <div class="badge">Familles</div>
+              <h3>Pack famille</h3>
+              <div class="price">79$</div>
+              <p class="muted">2 adultes + 2 enfants</p>
+              <ul class="mt-4">
+                <li>Parcours adapté enfants</li>
+                <li>Jeu de piste inclus</li>
+                <li>Priorité sur certaines activités</li>
+              </ul>
+              <div class="mt-6"><a class="btn btn-primary" href="reservation.html">Réserver</a></div>
+            </article>
+          </div>
+
+          <h2 class="section-title mt-8">Offres spéciales</h2>
+          <div class="card-grid">
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Early Bird -10%</h3>
+                <p class="card-text">Réservez 30 jours à l'avance et bénéficiez de 10% de remise.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Étudiants</h3>
+                <p class="card-text">Tarif réduit sur présentation d'un justificatif en cours de validité.</p>
+              </div>
+            </article>
+            <article class="card">
+              <div class="card-body">
+                <h3 class="card-title">Groupes</h3>
+                <p class="card-text">Devis dédié pour les groupes de plus de 20 personnes.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid">
+          <div class="col">
+            <div class="logo">Destination Émeraude</div>
+            <p class="muted mt-4">Votre porte d'entrée vers des souvenirs inoubliables.</p>
+          </div>
+          <div class="col">
+            <h4>Liens utiles</h4>
+            <ul class="mt-2">
+              <li><a href="reservation.html">Réserver</a></li>
+              <li><a href="tarifs.html">Tarifs</a></li>
+              <li><a href="temoignages.html">Témoignages</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h4>Suivez-nous</h4>
+            <div class="socials mt-2">
+              <a class="social-btn" href="#" aria-label="Instagram" title="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm5 6a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm6.5-.75a1.25 1.25 0 1 0 0 2.5 1.25 1.25 0 0 0 0-2.5Z" stroke="#2c5282" stroke-width="1.5"/></svg></a>
+              <a class="social-btn" href="#" aria-label="Facebook" title="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.5 9H17V6h-2.5C12.57 6 11 7.57 11 9.5V11H9v3h2v6h3v-6h2.11l.39-3H14v-1.5c0-.28.22-.5.5-.5Z" fill="#2c5282"/></svg></a>
+              <a class="social-btn" href="#" aria-label="X" title="X"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h3.6l4.54 6.33L17.2 4H20l-6.29 8.75L20 20h-3.6l-4.8-6.69L6.8 20H4l6.54-8.93L4 4Z" fill="#2c5282"/></svg></a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">© <span id="year"></span> Destination Émeraude. Tous droits réservés.</div>
+      </div>
+      <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    </footer>
+  </body>
+  </html>
+
