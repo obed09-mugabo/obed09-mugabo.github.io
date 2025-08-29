@@ -317,4 +317,7 @@ input, select, textarea, .social-btn, .control-btn, .theme-toggle {
 }
 [data-theme="dark"] .hint { color: #94a3b8; }
 [data-theme="dark"] .theme-toggle { background: #0f172a; border-color: #1f2937; color: #e5e7eb; }
+[data-theme="dark"] .nav-toggle span {
+  background: #e5e7eb;
+}
 
